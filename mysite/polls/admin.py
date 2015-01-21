@@ -1,5 +1,5 @@
 from django.contrib import admin
-from polls.models import Question
+from polls.models import Choice, Question
 
 
 # Register your models here.
@@ -11,3 +11,6 @@ class QuestionAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Question, QuestionAdmin)
+
+
+admin.site.register(Choice)
