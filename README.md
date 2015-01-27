@@ -1,9 +1,7 @@
 # django-test-project
-master branch uses sqlite
+[Django Tutorial Poll App](https://docs.djangoproject.com/en/1.7/intro/tutorial01/)
+
+uses sqlite
 ```
 python manage.py runserver
 ```
-
-heroku-branch was failed attempt to set up for heroku deployment.
-
-see https://github.com/vivianliang/poll-app for that.
